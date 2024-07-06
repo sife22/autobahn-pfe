@@ -22,9 +22,9 @@
           </div>
 
           @if($voiture->disponibilite === 0)
-                  <h3 class="disponibilite">Pas disponible pour le moment</h3>
+                  <h3 class="disponibilite">Non disponible pour le moment</h3>
                   @foreach ($ifreserved as $item)
-                      <h3 class="disponibilite">Elle va être disponible à : {{ $item[1]->date_retour }}</h3>
+                      <h3 class="disponibilite">La voiture sera disponible à partir de : {{ $item[1]->date_retour }}</h3>
                   @endforeach
                   {{-- <input type="submit" value="Cette {{ $voiture->marque }} est pas disponible" readonly> --}}
                   @else

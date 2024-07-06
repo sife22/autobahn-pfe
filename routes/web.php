@@ -1,13 +1,10 @@
 <?php
 
 use App\Http\Controllers\ClientController;
-use App\Http\Controllers\LoginController;
 use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ReservationController;
-use App\Http\Controllers\VoitureController;
 use App\Http\Controllers\UserController;
-use App\Models\Client;
-use App\Models\Voiture;
+use App\Http\Controllers\VoitureController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,10 +37,7 @@ Route::post('filterCar', [VoitureController::class, 'filterCar'])->middleware('h
 Route::get('/nosvoitures/details/{matricule}', [VoitureController::class, 'showCar'])->middleware('havetolog');
 
 Route::get('/contacteznous', [MessageController::class, 'index']);
-// Route::post('/storeMessage', [MessageController::class, 'storeMessage']);
 Route::post('/storeMessage', [MessageController::class, 'sendMessage']);
-
-
 
 Route::get('/nosvoitures/reserver/{id}/{matricule}', [ReservationController::class, 'index'])->middleware('havetolog');
 Route::post('/storeReservation/{id}/{matricule}', [ReservationController::class, 'storeReservation'])->middleware('havetolog');
@@ -57,5 +51,3 @@ Route::post('/storeCar', [VoitureController::class, 'storeCar'])->middleware('ha
 Route::get('/voiture/modifier/{matricule}', [VoitureController::class, 'editCar'])->middleware('havetologadmin');
 Route::put('/updateCar/{matricule}', [VoitureController::class, 'updateCar'])->middleware('havetologadmin');
 Route::get('/voiture/supprimer/{matricule}', [VoitureController::class, 'deleteCar'])->middleware('havetologadmin');
-
-

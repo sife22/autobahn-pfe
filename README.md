@@ -3,12 +3,34 @@
 # Plateforme pour gérer la location de voitures
 Cette application web est développée en utilisant le framework Laravel et permet de gérer la location de voitures pour une agence spécifique.
 
-## Fonctionnalités
-- Gestion des voitures (ajout, modification, suppression)
-- Gestion des clients (ajout, modification, suppression)
-- Gestion des locations (réservation, retour, facturation)
-- Authentification des utilisateurs (administrateurs, agences, clients)
-- Système de notifications (email, etc.)
+## Acteurs & Fonctionnalités 
+- Visiteur : 
+   - Explorer l'intégralité de la plateforme.
+   - Pour accéder aux informations détaillées d'une voiture, il est nécessaire de se connecter.
+   - Créer un compte.
+   - Laisser un message via le formulaire Contactez-nous.
+
+- Admin : 
+   - Authentification en utilisant les sessions. (Se connecter, Se déconnecter)
+   - Gestion de voitures.
+      - Voir toutes les voitures de l'agence.
+      - Modifier une voiture.
+      - Supprimer une voiture.
+   - Recevoir les messages des clients par e-mail.
+
+- Client :
+   - Authentification en utilisant les sessions. (Se connecter, Se déconnecter)
+   - Explorer toutes les voitures et leurs spécificités.
+   - Réserver une voiture si elle est disponible.
+   - Voir ses réservations.
+   - Annuler une réservation.
+
+## Fonctionnalités à ajouter...
+- Gestion des réservations par l'administrateur.
+- Gestion des clients.
+- Traitement des factures en ligne.
+- Pourquoi ne pas effectuer le paiement en ligne!...
+
 
 ## Configuration requise
 - PHP 8.0 ou supérieur
@@ -43,6 +65,7 @@ Cette application web est développée en utilisant le framework Laravel et perm
 ## Quelques captures d'écran
 
 1. ## Espace visiteur
+
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/1.png" width="90%" alt="App"></a></p>
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/2.png" width="90%" alt="App"></a></p>
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/3.png" width="90%" alt="App"></a></p>
@@ -66,9 +89,12 @@ Page Inscription
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/13.png" width="90%" alt="App"></a></p>
 
 2. ## Espace administrateur
+
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/6.png" width="90%" alt="App"></a></p>
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/7.png" width="90%" alt="App"></a></p>
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/8.png" width="90%" alt="App"></a></p>
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/9.png" width="90%" alt="App"></a></p>
+
+## ...
 
 
