@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.div_connexion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+    background-image: url("https://images.pexels.com/photos/457074/pexels-photo-457074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    /* background-image: url("https://images.pexels.com/photos/10188759/pexels-photo-10188759.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2s"); */
+    /* background-image: url("https://images.pexels.com/photos/401060/pexels-photo-401060.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+    /* background-image: url("https://images.pexels.com/photos/315934/pexels-photo-315934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 147px;
+}
+
+.form_connexion {
+    padding: 20px;
+    background-color: white;
+    /* border: 2px solid red; */
+    border-radius: 3px;
+    color: black;
+}
+
+/* ============= div form ============== */
+
+.form_connexion div {
+    text-align: start;
+}
+
+.form_connexion div input {
+    padding: 9px;
+    border: 0.2px solid lightgrey;
+    margin-top: 10px;
+    width: 600px;
+    border-radius: 3px;
+}
+
+.form_connexion div input:focus {
+    border: 1px solid black;
+}
+
+.form_connexion div input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    opacity: 1;
+}
+
+.form_title {
+    font-family: "Montserrat", sans-serif;
+}
+
+.inscription {
+    text-decoration: none;
+    color: dodgerblue;
+}
+/* =========================================== */
+
+/* ============= login input ============== */
+
+.login {
+    background: dodgerblue;
+    color: white;
+    border: 1px solid dodgerblue;
+}
+
+.login:hover {
+    transition: 0.9s;
+    background-color: rgb(14, 183, 56);
+    color: black;
+    cursor: pointer;
+}
+
+.login:not(:hover) {
+    transition: 0.9s;
+}
+
+/* =================================== */
+
+.erreur {
+    color: red;
+    font-family: "Montserrat", sans-serif;
+}
+
+.succes {
+    color: rgb(0, 214, 36);
+    font-family: "Montserrat", sans-serif;
+}

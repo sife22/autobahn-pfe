@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.div_reserver {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.div_reserver form {
+    padding: 50px 0;
+}
+
+.div_reserver form h1 {
+    padding: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.div_reserver form div {
+    text-align: center;
+    padding: 15px;
+}
+
+input {
+    padding: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.reserver_button {
+    margin-top: 30px;
+    border: none;
+    padding: 20px;
+}
+
+.reserver_button:hover {
+    background-color: greenyellow;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.reserver_button:not(:hover) {
+    transition: 0.5s;
+}

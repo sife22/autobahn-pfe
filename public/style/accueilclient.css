@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.header {
+    padding: 330px;
+    background-color: lightblue;
+    /* background-image: url("https://images.pexels.com/photos/104372/pexels-photo-104372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+    /* background-image: url("https://images.pexels.com/photos/12604826/pexels-photo-12604826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+    background-image: url("https://images.pexels.com/photos/14292717/pexels-photo-14292717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}

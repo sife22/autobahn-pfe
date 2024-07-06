@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+/* =========== voitures ============ */
+.nosvoitures {
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+}
+
+.div_voitures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.vos_reservations {
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+.div_voiture {
+    width: 530px;
+    height: 600px;
+    border: 1px solid lightcyan;
+    margin: 10px;
+}
+
+.div_image {
+    width: 100%;
+    height: 60%;
+}
+
+.div_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap");
+
+.marque {
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-family: "Open Sans", sans-serif; */
+    padding: 10px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.div_details {
+    padding: 5px;
+    /* font-family: "Cairo", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+}
+
+/* .div_details .prix {
+    font-size: 10px;
+    padding-top: 5px;
+} */
+
+.div_button {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.div_button input {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.div_button input:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+input:not(:hover) {
+    transition: 0.5s;
+}
+
+.disponibilite {
+    color: red;
+}
+
+/* ================================ */
+
+.marques_title {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.notfoundcars {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: dodgerblue;
+}
+
+.back {
+    text-align: center;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+.disponibilite {
+    color: red;
+    font-family: "Montserrat", sans-serif;
+}

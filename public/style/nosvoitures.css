@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.vos_reservations {
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 5px;
+}
+
+form {
+    text-align: center;
+}
+
+.div_nosvoitures {
+    /* text-align: center; */
+    padding-top: 30px;
+    /* justify-content: center; */
+}
+
+.title {
+    padding-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.voitures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 150px;
+}
+
+select {
+    padding: 15px;
+    border: none;
+    border-radius: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+input {
+    padding: 13px;
+    border: 1px solid lightcyan;
+    border-radius: 2px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+input:hover {
+    cursor: pointer;
+    background-color: rgb(154, 154, 154);
+    transition: 0.5s;
+}
+
+input:not(:hover) {
+    transition: 0.5s;
+}
+/* =========== voitures ============ */
+/* =========== voitures ============ */
+.nosvoitures {
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+}
+
+.div_voitures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+.div_voiture {
+    width: 530px;
+    height: 600px;
+    border: 1px solid lightcyan;
+    margin: 10px;
+}
+
+.div_image {
+    width: 100%;
+    height: 60%;
+}
+
+.div_image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap");
+
+.marque {
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-family: "Open Sans", sans-serif; */
+    padding: 10px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.marques_title {
+    font-family: "Montserrat", sans-serif;
+}
+
+.div_details {
+    padding: 5px;
+    /* font-family: "Cairo", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.div_details .prix {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.marques_title {
+    font-family: "Montserrat", sans-serif;
+}
+
+.div_details .prix {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.div_button {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.div_button button {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.div_button button:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+button:not(:hover) {
+    transition: 0.5s;
+}
+
+/* ================================ */

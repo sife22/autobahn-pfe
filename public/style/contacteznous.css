@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+.div_contacteznous {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.form_contacteznous {
+    padding: 50px 0;
+}
+
+.form_contacteznous a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+
+.form_title {
+    font-family: "Montserrat", sans-serif;
+    padding: 10px;
+}
+
+/* ============= div form ============== */
+
+.form_contacteznous div {
+    text-align: start;
+}
+
+.input_contacteznous {
+    padding: 9px;
+    border: 0.2px solid lightgrey;
+    margin-top: 10px;
+    width: 600px;
+    border-radius: 3px;
+}
+
+.input_contacteznous:focus {
+    border: 1px solid black;
+}
+
+.input_contacteznous::placeholder {
+    font-family: "Montserrat", sans-serif;
+    opacity: 1;
+}
+
+.form_contacteznous {
+    font-family: "Montserrat", sans-serif;
+}
+
+textarea {
+    width: 600px;
+    max-width: 600px;
+}
+/* =========================================== */
+
+/* ============= envoyer input ============== */
+
+.envoyer {
+    color: white;
+    border: 1px solid dodgerblue;
+    background: linear-gradient(to left, dodgerblue 50%, rgb(97, 255, 97) 50%)
+        right;
+    background-size: 200%;
+    padding: 9px;
+    transition: 2s ease-out;
+    width: 619px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.envoyer:hover {
+    transition: 0.9s;
+    color: black;
+    cursor: pointer;
+    background-position: left;
+}
+
+.envoyer:not(:hover) {
+    transition: 0.9s;
+}
+
+/* =================================== */
+
+.erreur {
+    color: red;
+}
+
+.success {
+    color: green;
+}

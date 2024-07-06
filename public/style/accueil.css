@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 255px;
+    background-color: lightblue;
+    background-image: url("https://images.pexels.com/photos/14292717/pexels-photo-14292717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-position: center;
+}
+
+/* ===== div garantie ===== */
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.garantie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.div_garantie {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    width: 400px;
+    padding: 10px;
+}
+
+.div_garantie h2 {
+    font-size: 30px;
+}
+
+.div_garantie p {
+    font-size: 19px;
+}
+
+.img_garantie {
+    width: 150px;
+    margin-bottom: 20px
+}
+/* ========================== */
+
+/*  ============== à propos ============= */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Marvel:ital,wght@1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital@1&display=swap");
+
+.div_mission {
+    padding-bottom: 20px;
+}
+
+.mission {
+    text-align: center;
+    padding: 40px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.mission .titre {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.para_mission {
+    padding: 10px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin: 0 50px auto;
+}
+
+.fondateurs {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.fondateurs div {
+    width: 400px;
+}
+
+.fondateurs h1 {
+    font-family: "Tiro Telugu", serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.fondateurs h2 {
+    font-family: "Tiro Telugu", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: dodgerblue;
+}
+
+.fondateurs p {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.groupe {
+    padding-left: 25px;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 10px;
+}
+
+/* ======================= */
+
+/* =========== voitures ============ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap");
+
+.nosvoitures {
+    text-align: center;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+}
+
+.div_voitures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.div_voiture {
+    width: 400px;
+    height: 510px;
+    /* border: 1px solid lightblue; */
+    margin: 10px;
+}
+
+.div_image_voiture {
+    width: 100%;
+    height: 60%;
+}
+
+.div_image_voiture img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap");
+
+.marque {
+    /* font-family: "Montserrat", sans-serif; */
+    /* font-family: "Open Sans", sans-serif; */
+    padding: 10px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.div_details_voiture {
+    padding: 5px;
+    /* font-family: "Cairo", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+}
+
+.div_details_voiture .prix {
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.div_button {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.div_button button {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.div_button button a {
+    text-decoration: none;
+}
+
+.div_button button:hover {
+    background-color: dodgerblue;
+    cursor: pointer;
+    transition: 1.5s;
+}
+
+button:not(:hover) {
+    transition: 0.5s;
+}
+
+/* ================================ */
