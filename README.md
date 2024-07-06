@@ -1,6 +1,6 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-# Plateforme de Gestion de Location de Voitures
+# Plateforme pour gérer la location de voitures
 Cette application web est développée en utilisant le framework Laravel et permet de gérer la location de voitures pour une agence spécifique.
 
 ## Fonctionnalités
@@ -48,13 +48,21 @@ Cette application web est développée en utilisant le framework Laravel et perm
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/3.png" width="90%" alt="App"></a></p>
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/4.png" width="90%" alt="App"></a></p>
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/5.png" width="90%" alt="App"></a></p>
+
 Page Nos voitures
+
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/10.png" width="90%" alt="App"></a></p>
+
 Page Contactez-nous
+
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/11.png" width="90%" alt="App"></a></p>
+
 Page Connexion
+
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/12.png" width="90%" alt="App"></a></p>
+
 Page Inscription
+
 <p align="center"><a href="#" target="_blank"><img src="./screenshots/13.png" width="90%" alt="App"></a></p>
 
 2. ## Espace administrateur
