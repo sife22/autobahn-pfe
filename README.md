@@ -40,7 +40,7 @@ Cette application web est développée en utilisant le framework Laravel et perm
 
 ## Installation
 1. Clonez le dépôt Git :
-   git clone https://github.com/votre-utilisateur/location-voitures.git
+   git clone https://github.com/sife22/autobahn-pfe.git
 
 2. Accédez au répertoire du projet :
    cd autobahn-pfe
@@ -48,7 +48,7 @@ Cette application web est développée en utilisant le framework Laravel et perm
 3. Installez les dépendances avec Composer :
    composer install
 
-4. Copiez le fichier '.env.example' vers '.env' et configurez les paramètres de connexion à la base de données :
+4. Copiez le fichier '.env.example' vers '.env' et configurez les paramètres de connexion à la base de données via la commande suivante :
    cp .env.example .env
 
 5. Générez la clé d'application Laravel :
