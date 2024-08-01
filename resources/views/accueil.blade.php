@@ -19,10 +19,9 @@
         </p>
     </div>
     <div class="fondateurs">
-      <div>
         {{-- <img src="" class="" alt="" /> --}}
         <h1>Sif eddine HADI</h1>
-        <h2>CEO</h2>
+        {{-- <h2>CEO</h2> --}}
         <p>
           "Bienvenue chez AUTOBAHN, Je suis fier d'avoir fondé cette agence et de vous fournir ce service."
         </p>
@@ -31,14 +30,7 @@
     </div>
   </div>
 <div class="garantie">
-    <div class="div_garantie">
-      <img src="/garantie/garantie.png" alt="" class="img_garantie" />
-      <h2>3 jours pour décider.</h2>
-      <p>
-        Vous avez 3 jours pour lequel
-        <br /> vous pouvez annuler une réservation
-      </p>
-    </div>
+    
     <div class="div_garantie">
       <img src="/garantie/garantie.png" alt="" class="img_garantie" />
       <h2>AUTOBAHN assure la qualité.</h2>
